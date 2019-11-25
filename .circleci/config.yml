@@ -1,9 +1,9 @@
 version: 2
 jobs:
   build:
-     filters:
-            branches:
-              only: master
+    filters:
+          branches:
+            only: master
     docker:
       - image: circleci/node:10
     working_directory: ~/gatsby-site
@@ -36,10 +36,3 @@ jobs:
       - run:
           name:  Deploy
           command: npm run deploy
-
-
-
-
-
-
-
