@@ -27,9 +27,6 @@ jobs:
           command: |
                 git config user.email "nilesh_s@techjoomla.com"
                 git config user.name "nilesh5995"
-      - add_ssh_keys:
-          fingerprints: 
-            - "92:db:91:48:25:b5:aa:a4:cb:6e:e5:4c:6e:30:0e:3d"
       - run:
           name:  Deploy
           command: npm run deploy
