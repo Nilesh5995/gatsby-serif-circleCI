@@ -7,6 +7,7 @@ image: '/team/sage-kirk-485982-unsplash.jpg'
 jobtitle: 'Accountant'
 email: 'sage@test.com'
 linkedinurl: 'www.linkedin.com/sagekirk21'
+faceboourl : 'www.facebook.com'
 weight: 2
 ---
 
